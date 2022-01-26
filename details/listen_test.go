@@ -1,3 +1,8 @@
+// Basert på koden og fri oversettelse fra 
+//   Woodbeck, A. (2021). Network programming with Go : 
+//   code secure and reliable network services from scratch. 
+//   No Starch Press.
+//
 // TCP server som hører på innkommende TCP forbindelser,
 // initialiserer forbindelser med klienten, aksepterer/godtar
 // og asynkront behandler hver forbindelse, utveksler data

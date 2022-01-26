@@ -1,3 +1,9 @@
+// Basert på koden og fri oversettelse fra
+//   Woodbeck, A. (2021). Network programming with Go :
+//   code secure and reliable network services from scratch. 
+//   No Starch Press.
+//   Chapter 3: Reliable TCP Data Streams 
+
 package details
 
 import (
