@@ -2,6 +2,7 @@ package main
 import (
     "net"
     "os"
+    "time"
 )
 
 func main() {
@@ -30,11 +31,12 @@ func main() {
     reply := make([]byte, 1024)
 
     _, err = conn.Read(reply)
+    //time.Sleep(2 * time.Second)
     if err != nil {
-        println("Write to server failed:", err.Error())
+        println("Read from server failed:", err.Error())
         os.Exit(1)
     }
-
+    time.Sleep(2 * time.Second)
     println("reply from server=", string(reply))
 
     conn.Close()

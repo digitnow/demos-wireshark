@@ -1,1 +1,1 @@
-# Demos for å lære Wireshark
+# Demos for å læreadf Wireshark
