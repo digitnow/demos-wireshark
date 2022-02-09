@@ -1,1 +1,2 @@
-# Demos for å læreadf Wireshark
+<<<<<<< HEAD
+# Demos Wireshark
